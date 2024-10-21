@@ -1,7 +1,7 @@
 function volume_sphere() {
     //Write your code here
 	let radius = document.getElementById("radius");
-	if(radius<0 || isNan(radius)){
+	if(radius<0 || isNaN(parseInt(radius)) ){
 		document.getElementById("volume").textContent = "NaN";
 	}else{
 		let pi = 3.1415927;
